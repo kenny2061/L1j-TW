@@ -1,13 +1,13 @@
 @echo off
 title L1J-TW Server Console
 REM -------------------------------------
-REM °ò¥»¦øªA¾¹¹w³]°Ñ¼Æ
+REM åŸºæœ¬ä¼ºæœå™¨é è¨­åƒæ•¸
 java -Djava.util.logging.manager=net.l1j.L1LogManager -Xmx1024m -Xincgc -cp ./lib/*;l1jserver.jar net.l1j.server.GameServer
 REM
-REM ¾Ú»¡·|¤ñ¸û¦nªº°Ñ¼Æ
+REM æ“šèªªæœƒæ¯”è¼ƒå¥½çš„åƒæ•¸
 REM java -Djava.util.logging.manager=net.l1j.L1LogManager -Xmx512m -Xss1024K -XX:+UseConcMarkSweepGC -cp ./lib/*;l1jserver.jar net.l1j.server.GameServer
 REM
-REM ¦pªG§A¬O¤j¥xªº¦øªA¾¹©M³\¦hªº°O¾ĞÅé¡A¥i¥H¹Á¸Õ¤U¦C½d¨Ò (jdk\jre\bin¥Ø¿ı¤U¥i§ä¨ìclient»Pserver¥Ø¿ı,»İ±Nserver½Æ»s¨ìjreªºbin¥Ø¿ı¤U¤è¥i°õ¦æ)
+REM å¦‚æœä½ æ˜¯å¤§å°çš„ä¼ºæœå™¨å’Œè¨±å¤šçš„è¨˜æ†¶é«”ï¼Œå¯ä»¥å˜—è©¦ä¸‹åˆ—ç¯„ä¾‹ (jdk\jre\binç›®éŒ„ä¸‹å¯æ‰¾åˆ°clientèˆ‡serverç›®éŒ„,éœ€å°‡serverè¤‡è£½åˆ°jreçš„binç›®éŒ„ä¸‹æ–¹å¯åŸ·è¡Œ)
 REM java -Djava.util.logging.manager=net.l1j.L1LogManager -server -Xmx1536m -Xms1024m -Xmn512m -XX:PermSize=256m -XX:SurvivorRatio=8 -Xnoclassgc -XX:+AggressiveOpts -cp ./lib/*;l1jserver.jar net.l1j.server.GameServer
 REM -------------------------------------
 

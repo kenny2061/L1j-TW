@@ -1,69 +1,69 @@
-db\InnoDB_TW ¥Ø¿ı¤¤¦U¸ê®Æ®wÀÉ®×»¡©ú
+db\InnoDB_TW ç›®éŒ„ä¸­å„è³‡æ–™åº«æª”æ¡ˆèªªæ˜
 
-accounts.sql			±b¸¹
-area.sql			¦a¹Ï°Ï°ì
-armor.sql			¨¾¨ã
-armor_set.sql			®M¸Ë³]©w
-ban_ip.sql			¸T¤îµn¤JIP¦Cªí
-ban_name.sql			¸T¤î¨Ï¥Îªº¨¤¦â¦WºÙ
-beginner.sql			¨¤¦â±Ò©l®Éµ¹¤©ªº¹D¨ã
-board.sql			¤½§iÄæ
-board_auction.sql		¤½§iÄæ
-castle.sql			«°³ù
-characters.sql			¨¤¦â¦U¶µ¯À½è
-character_buddys.sql		¨¤¦â¦n¤Í¦Cªí
-character_buff.sql		¨¤¦âªş¥[ª¬ºA
+accounts.sql			å¸³è™Ÿ
+area.sql			åœ°åœ–å€åŸŸ
+armor.sql			é˜²å…·
+armor_set.sql			å¥—è£è¨­å®š
+ban_ip.sql			ç¦æ­¢ç™»å…¥IPåˆ—è¡¨
+ban_name.sql			ç¦æ­¢ä½¿ç”¨çš„è§’è‰²åç¨±
+beginner.sql			è§’è‰²å•Ÿå§‹æ™‚çµ¦äºˆçš„é“å…·
+board.sql			å…¬å‘Šæ¬„
+board_auction.sql		å…¬å‘Šæ¬„
+castle.sql			åŸå ¡
+characters.sql			è§’è‰²å„é …ç´ è³ª
+character_buddys.sql		è§’è‰²å¥½å‹åˆ—è¡¨
+character_buff.sql		è§’è‰²é™„åŠ ç‹€æ…‹
 character_config.sql		
-character_elf_warehouse.sql	¨¤¦â§¯ºë­Ü®w
-character_items.sql		¨¤¦â¨­¤Wªº¹D¨ã
-character_quests.sql		¨¤¦âªº¥ô°È
-character_skills.sql		¨¤¦â§Ş¯à
-character_teleport.sql		¨¤¦â°O¾Ğ®y¼Ğ
-character_warehouse.sql		¨¤¦âªº­Ü®w
-clan_data.sql			¦å·ù¸ê°T
-clan_warehouse.sql		¦å·ù­Ü®w
-commands.sql			GM«ü¥O
+character_elf_warehouse.sql	è§’è‰²å¦–ç²¾å€‰åº«
+character_items.sql		è§’è‰²èº«ä¸Šçš„é“å…·
+character_quests.sql		è§’è‰²çš„ä»»å‹™
+character_skills.sql		è§’è‰²æŠ€èƒ½
+character_teleport.sql		è§’è‰²è¨˜æ†¶åº§æ¨™
+character_warehouse.sql		è§’è‰²çš„å€‰åº«
+clan_data.sql			è¡€ç›Ÿè³‡è¨Š
+clan_warehouse.sql		è¡€ç›Ÿå€‰åº«
+commands.sql			GMæŒ‡ä»¤
 connection_test_table.sql	
-droplist.sql			¹D¨ã±¼¸¨¦Cªí
+droplist.sql			é“å…·æ‰è½åˆ—è¡¨
 drop_item.sql			
-dungeon.sql			¶Ç°eÂI
-dungeon_random.sql		ÀH¾÷¶Ç°eÂI
-etcitem.sql			¹D¨ã¸ê®Æ
-getback.sql			µn¤J®É¦^¨ì­ş­Ó¦a¹Ï
-getback_restart.sql		­«·s¶}©l®É¦^¨ì­ş­Ó¦a¹Ï
+dungeon.sql			å‚³é€é»
+dungeon_random.sql		éš¨æ©Ÿå‚³é€é»
+etcitem.sql			é“å…·è³‡æ–™
+getback.sql			ç™»å…¥æ™‚å›åˆ°å“ªå€‹åœ°åœ–
+getback_restart.sql		é‡æ–°é–‹å§‹æ™‚å›åˆ°å“ªå€‹åœ°åœ–
 global_tasks.sql		
-house.sql			¤p«Î
+house.sql			å°å±‹
 letter.sql			
-mail.sql			«H¥ó
-mapids.sql			¦a¹Ï½s¸¹
-mobgroup.sql			©Çª«¸s²Õ
-mobskill.sql			©Çª«§Ş¯à
-npc.sql				NPC³]©w
-npcaction.sql			NPC°Ê§@
-npcchat.sql			NPC¹ï¸Ü
-petitem.sql			Ãdª«¹D¨ã
-pets.sql			Ãdª«
-pettypes.sql			Ãdª««¬ºA
-polymorphs.sql			ÅÜ¨­³]©w
-resolvent.sql			¹D¨ã¤À¸Ñ³]©w
-shop.sql			°Ó¤H³]©w
-skills.sql			§Ş¯à³]©w
-spawnlist.sql			©Çª«¤À¥¬
-spawnlist_boss.sql		BOSS©Çª«¤À¥¬
-spawnlist_door.sql		ªù ¤À§G
+mail.sql			ä¿¡ä»¶
+mapids.sql			åœ°åœ–ç·¨è™Ÿ
+mobgroup.sql			æ€ªç‰©ç¾¤çµ„
+mobskill.sql			æ€ªç‰©æŠ€èƒ½
+npc.sql				NPCè¨­å®š
+npcaction.sql			NPCå‹•ä½œ
+npcchat.sql			NPCå°è©±
+petitem.sql			å¯µç‰©é“å…·
+pets.sql			å¯µç‰©
+pettypes.sql			å¯µç‰©å‹æ…‹
+polymorphs.sql			è®Šèº«è¨­å®š
+resolvent.sql			é“å…·åˆ†è§£è¨­å®š
+shop.sql			å•†äººè¨­å®š
+skills.sql			æŠ€èƒ½è¨­å®š
+spawnlist.sql			æ€ªç‰©åˆ†å¸ƒ
+spawnlist_boss.sql		BOSSæ€ªç‰©åˆ†å¸ƒ
+spawnlist_door.sql		é–€ åˆ†ä½ˆ
 spawnlist_furniture.sql
-spawnlist_light.sql		¿O¥ú¤À§G
-spawnlist_npc.sql		NPC¤À§G
-spawnlist_time.sql		®É¶¡±±¨î¤À§G©Çª«
-spawnlist_trap.sql		³´¨À¤À§G
-spawnlist_ub.sql		µL½u¤j¾Ô©Çª«¤À§G
-spr_action.sql			¦æ°Ê°Ê§@³]©w
-town.sql			¦U§ø§øªø
-trap.sql			³´¨À³]©w
-ub_managers.sql			µL­­¤j¾ÔºŞ²z­û³]©w
-ub_settings.sql			µL­­¤j¾ÔÄv§Ş³õ³]©w
-ub_times.sql			µL­­¤j¾Ô®É¶¡³]©w
-weapon.sql			ªZ¾¹
-weapon_skill.sql		ªZ¾¹ªş¥[§Ş¯à³]©w
+spawnlist_light.sql		ç‡ˆå…‰åˆ†ä½ˆ
+spawnlist_npc.sql		NPCåˆ†ä½ˆ
+spawnlist_time.sql		æ™‚é–“æ§åˆ¶åˆ†ä½ˆæ€ªç‰©
+spawnlist_trap.sql		é™·é˜±åˆ†ä½ˆ
+spawnlist_ub.sql		ç„¡ç·šå¤§æˆ°æ€ªç‰©åˆ†ä½ˆ
+spr_action.sql			è¡Œå‹•å‹•ä½œè¨­å®š
+town.sql			å„æ‘æ‘é•·
+trap.sql			é™·é˜±è¨­å®š
+ub_managers.sql			ç„¡é™å¤§æˆ°ç®¡ç†å“¡è¨­å®š
+ub_settings.sql			ç„¡é™å¤§æˆ°ç«¶æŠ€å ´è¨­å®š
+ub_times.sql			ç„¡é™å¤§æˆ°æ™‚é–“è¨­å®š
+weapon.sql			æ­¦å™¨
+weapon_skill.sql		æ­¦å™¨é™„åŠ æŠ€èƒ½è¨­å®š
 
-db\InnoDB_TW\Custom ¥Ø¿ı¬°¦Û­q¸Ë³Æ
+db\InnoDB_TW\Custom ç›®éŒ„ç‚ºè‡ªè¨‚è£å‚™

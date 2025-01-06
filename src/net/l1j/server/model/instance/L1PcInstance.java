@@ -386,8 +386,8 @@ public class L1PcInstance extends L1Character {
 					}
 				}
 			}
-			// 移除hasSkillEffect(GMSTATUS_HPBAR)條件判斷，讓一般玩家也看得到怪物血條
-			if (L1HpBar.isHpBarTarget(visible)) {
+			// 可以在altsettings.properties檔案中設定ShowHPBar來決定是否讓一般玩家也看得到怪物血條
+			if (hasSkillEffect(GMSTATUS_HPBAR) && L1HpBar.isHpBarTarget(visible)) {
 				sendPackets(new S_HPMeter((L1Character) visible));
 				// 怪物血條
 			} else if (Config.SHOW_HP_BAR && L1HpBar.isHpBarTarget(visible) && visible instanceof L1MonsterInstance) {

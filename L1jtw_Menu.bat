@@ -1,40 +1,40 @@
 @echo off
 
-REM # °õ¦æ³o­Ó½sÄ¶µ{¦¡¤§«e±z¥²¶·¥ı¦w¸Ë¦njava #
-REM ³]©wÀÉ
+REM # åŸ·è¡Œé€™å€‹ç·¨è­¯ç¨‹å¼ä¹‹å‰æ‚¨å¿…é ˆå…ˆå®‰è£å¥½java #
+REM è¨­å®šæª”
 set l1jtwpath=%cd%
 set buiderpath=%l1jtwpath%\tool\l1jtw_quick_build
 set logpath=%l1jtwpath%\log\CompilerLog.txt
 
 
-REM °ò¥»¤å«Å
+REM åŸºæœ¬æ–‡å®£
 echo.
-echo. ¡i«Å¨¥¡j
-echo.      ¥»¤u¨ã¶È±ÀÂËµ¹¼ö·R¡yDOS Command Line¡zªº¾Ş§@¡A
-echo.  ¥H¤Î¼ö·R¨Ï¥Î¡yµ§°O¥»¡z§@¬°¶}µo¤u¨ãªº¨Ï¥ÎªÌ¡C
-echo.      ¦pªG±z¤w¸g¦³ºD¥Îªº¹Ï§Î¤Æ¾ã¦X¶}µoÀô¹Ò¡A¥»µ{§Ç
-echo.  ¥i¯à²@µL¥ÎªZ¤§¦a¡C
+echo. ã€å®£è¨€ã€‘
+echo.      æœ¬å·¥å…·åƒ…æ¨è–¦çµ¦ç†±æ„›ã€DOS Command Lineã€çš„æ“ä½œï¼Œ
+echo.  ä»¥åŠç†±æ„›ä½¿ç”¨ã€ç­†è¨˜æœ¬ã€ä½œç‚ºé–‹ç™¼å·¥å…·çš„ä½¿ç”¨è€…ã€‚
+echo.      å¦‚æœæ‚¨å·²ç¶“æœ‰æ…£ç”¨çš„åœ–å½¢åŒ–æ•´åˆé–‹ç™¼ç’°å¢ƒï¼Œæœ¬ç¨‹åº
+echo.  å¯èƒ½æ¯«ç„¡ç”¨æ­¦ä¹‹åœ°ã€‚
 
 :main
 REM ##############################################
-REM ¥D¿ï³æ
+REM ä¸»é¸å–®
 REM set ANT_BATCH_PAUSE=on
 echo.
-echo. ùİ*********ùç********************************ùß
-echo. ùø         ¢x¡î¡ï¡î¡ïL1j-TW ¡À Server¡ï¡î¡ï¡îùø
-echo. ùò*********ùê********************************ùô
-echo. ùø  ¸ô ®|  ¢x %l1jtwpath%
-echo. ùà*********ùê********************************ùâ
-echo. ùø  ¿ï ³æ  ¢x¡î¡ï¡î¡ï ¥\  ¯à  »¡  ©ú ¡ï¡î¡ï¡îùø
-echo. ùò*********¢q********************************ùô
-echo. ùø  build  ¢x ½sÄ¶ l1jserver.jar (¹w³]¼Ò¦¡)  ùø
-echo. ùø  start  ¢x ±Ò°Ê l1jserver.jar             ùø
-echo. ùø  config ¢x ³]©w ¦øªA¾¹¿ï¶µ    (¹Ï§Î¤¶­±)  ùø
-echo. ùø  clear  ¢x ¨ê·s °®²bªºµe­±                ùø
-echo. ùø  quit   ¢x Â÷¶} ¿ï³æ¨t²Î                  ùø
-echo. ùã*********ùí********************************ùå
+echo. â•”*********â•¤********************************â•—
+echo. â•‘         â”‚âˆµâˆ´âˆµâˆ´L1j-TW ãŠ£ Serverâˆ´âˆµâˆ´âˆµâ•‘
+echo. â•Ÿ*********â•ª********************************â•¢
+echo. â•‘  è·¯ å¾‘  â”‚ %l1jtwpath%
+echo. â• *********â•ª********************************â•£
+echo. â•‘  é¸ å–®  â”‚âˆµâˆ´âˆµâˆ´ åŠŸ  èƒ½  èªª  æ˜ âˆ´âˆµâˆ´âˆµâ•‘
+echo. â•Ÿ*********â”¼********************************â•¢
+echo. â•‘  build  â”‚ ç·¨è­¯ l1jserver.jar (é è¨­æ¨¡å¼)  â•‘
+echo. â•‘  start  â”‚ å•Ÿå‹• l1jserver.jar             â•‘
+echo. â•‘  config â”‚ è¨­å®š ä¼ºæœå™¨é¸é …    (åœ–å½¢ä»‹é¢)  â•‘
+echo. â•‘  clear  â”‚ åˆ·æ–° ä¹¾æ·¨çš„ç•«é¢                â•‘
+echo. â•‘  quit   â”‚ é›¢é–‹ é¸å–®ç³»çµ±                  â•‘
+echo. â•š*********â•§********************************â•
 echo.
-echo. ½Ğ¿é¤J¡y«ü¥O¡z
+echo. è«‹è¼¸å…¥ã€æŒ‡ä»¤ã€
 
 :askfirst
 set promptfirst=x
@@ -47,7 +47,7 @@ if /i %promptfirst%==quit goto end
 goto askfirst
 
 REM ##############################################
-REM ½sÄ¶
+REM ç·¨è­¯
 :build
 cls
 call %buiderpath%\Compiler.bat
@@ -55,27 +55,27 @@ pause
 goto main
 
 REM ##############################################
-REM ¹B¦æ l1jserver.jar
+REM é‹è¡Œ l1jserver.jar
 :start
 cls
 call %l1jtwpath%\ServerStart.bat
 goto main
 
 REM ##############################################
-REM ³]©w ¦øªA¾¹¿ï¶µ
+REM è¨­å®š ä¼ºæœå™¨é¸é …
 :config
 cls
 call %l1jtwpath%\ServerConfig.bat
 goto main
 
 REM ##############################################
-REM ²M°£µe­±
+REM æ¸…é™¤ç•«é¢
 :clear
 cls
 goto main
 
 REM ##########################################
-REM µ²§ôµ{§Ç
+REM çµæŸç¨‹åº
 :end
 cls
 pause
