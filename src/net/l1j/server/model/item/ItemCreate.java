@@ -31,8 +31,8 @@ public class ItemCreate {
 	/** 製作新物品 */
 	public static boolean newItem(L1PcInstance pc, int item_id, int count) {
 		L1ItemInstance item = ItemTable.getInstance().createItem(item_id);
-		item.setCount(count);
 		if (item != null) {
+			item.setCount(count);
 //			if (pc.getInventory().checkAddItem(item, count) == L1Inventory.OK) {
 				pc.getInventory().storeItem(item);
 //			} else { // 持てない場合は地面に落とす 處理のキャンセルはしない（不正防止）

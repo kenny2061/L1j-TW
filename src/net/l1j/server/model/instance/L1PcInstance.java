@@ -386,7 +386,8 @@ public class L1PcInstance extends L1Character {
 					}
 				}
 			}
-			if (hasSkillEffect(GMSTATUS_HPBAR) && L1HpBar.isHpBarTarget(visible)) {
+			// 移除hasSkillEffect(GMSTATUS_HPBAR)條件判斷，讓一般玩家也看得到怪物血條
+			if (L1HpBar.isHpBarTarget(visible)) {
 				sendPackets(new S_HPMeter((L1Character) visible));
 				// 怪物血條
 			} else if (Config.SHOW_HP_BAR && L1HpBar.isHpBarTarget(visible) && visible instanceof L1MonsterInstance) {

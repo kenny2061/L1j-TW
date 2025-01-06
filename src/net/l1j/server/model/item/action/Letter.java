@@ -54,10 +54,10 @@ public class Letter {
 			newItemId = 49024;
 		}
 		L1ItemInstance item = ItemTable.getInstance().createItem(newItemId);
-		item.setCount(1);
 		if (item == null) {
 			return false;
 		}
+		item.setCount(1);
 
 		if (sendLetter(pc, letterReceiver, item, true)) {
 			saveLetter(item.getId(), letterCode, pc.getName(), letterReceiver, letterText);
@@ -83,10 +83,10 @@ public class Letter {
 		String memberName[] = targetClan.getAllMembers();
 		for (int i = 0; i < memberName.length; i++) {
 			L1ItemInstance item = ItemTable.getInstance().createItem(49016);
-			item.setCount(1);
 			if (item == null) {
 				return false;
 			}
+			item.setCount(1);
 			if (sendLetter(pc, memberName[i], item, false)) {
 				saveLetter(item.getId(), letterCode, pc.getName(), memberName[i], letterText);
 			}
